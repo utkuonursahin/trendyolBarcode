@@ -1,0 +1,39 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.main{
+    width: 30rem;
+    height: 10rem;
+    background-color: #f5f5f5;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .barcode__container{
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.main img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.main .barcode{
+    color: #222;
+    font-size: 2rem;
+}
