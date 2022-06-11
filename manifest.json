@@ -1,18 +1,13 @@
 {
-  "name": "Trendyol Barcode",
-  "version": "1.0.0",
-  "description": "Barcode Number For Trendyol",
-  "manifest_version": 3,
   "author": "",
   "action": {
     "default_popup": "index.html",
     "default_title": "Trendyol Barcode"
   },
+  "name": "Trendyol Barcode",
+  "version": "1.0.0",
+  "description": "Barcode Number For Trendyol",
+  "manifest_version": 3,
   "permissions": ["scripting"],
-  "content_scripts": [
-    {
-      "matches": ["https://www.trendyol.com/*"],
-      "css": ["style.css"]
-    }
-  ]
+  "host_permissions": ["<all_urls>"]
 }
